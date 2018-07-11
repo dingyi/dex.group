@@ -1,0 +1,54 @@
+html {
+  height: 100%
+}
+
+body {
+  background: #1F1A51;
+  font: 12px/1.5 -apple-system, BlinkMacSystemFont, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+  color: #fff;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-rows: 1fr auto
+}
+
+.logo {
+  --width: 286px;
+  --height: 100px;
+  --center-left: calc(50% - var(--width) / 2);
+  --center-top: calc(50% - var(--height) / 2);
+  --ease-in-out-quart: cubic-bezier(.77, 0, .175, 1);
+  position: absolute;
+  top: var(--center-top);
+  left: var(--center-left);
+  width: var(--width);
+  height: var(--height);
+  animation: fadein .8s var(--ease-in-out-quart)
+}
+
+.footer {
+  grid-row-start: 2;
+  grid-row-end: 3
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto
+}
+
+p {
+  color: rgba(255, 255, 255, .3);
+  text-align: center
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
