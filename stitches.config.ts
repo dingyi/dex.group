@@ -1,6 +1,6 @@
-import createCss from '@stitches/react'
+import { createCss, StitchesCss }  from '@stitches/react'
 
-export const { styled, css, global, keyframes, getCssString } = createCss({
+const stitchesConfig = createCss({
   theme: {
     fonts: {
       system: 'system-ui',
@@ -71,3 +71,7 @@ export const { styled, css, global, keyframes, getCssString } = createCss({
     // },
   },
 })
+
+export type CSS = StitchesCss<typeof stitchesConfig>
+
+export const { css, global, keyframes, getCssString } = stitchesConfig
