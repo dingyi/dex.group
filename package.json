@@ -1,0 +1,31 @@
+{
+  "name": "dex.group",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Ding <dingyi@hey.com>",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prettier": "prettier './**/*.{js,jsx,ts,tsx,json,md,mdx}' --write"
+  },
+  "keywords": [
+    "next"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dexgroup/dex.group"
+  },
+  "dependencies": {
+    "@stitches/react": "^0.1.9",
+    "next": "^10.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.4",
+    "prettier": "2.2.1",
+    "typescript": "^4.2.4"
+  }
+}

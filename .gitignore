@@ -1,0 +1,20 @@
+# Project dependencies
+.cache
+.vscode
+
+# dependencies
+node_modules
+
+.next
+.vercel
+
+# production
+.cache
+
+# misc
+*.log
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
