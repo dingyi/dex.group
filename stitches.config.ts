@@ -74,4 +74,4 @@ const stitchesConfig = createCss({
 
 export type CSS = StitchesCss<typeof stitchesConfig>
 
-export const { css, global, keyframes, getCssString } = stitchesConfig
+export const { css, styled, global, keyframes, getCssString } = stitchesConfig
