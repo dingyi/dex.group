@@ -3,13 +3,14 @@ import { AppProps } from 'next/app'
 import Head from 'next/head'
 import { globalStyles } from '@styles/global'
 import { box } from '@styles/box'
+import PlausibleProvider from 'next-plausible'
 
 function App({ Component, pageProps }: AppProps) {
 
   globalStyles()
 
   return (
-    <div>
+    <PlausibleProvider domain="dex.group">
       <Head>
         <title>DEX Group</title>
         <meta name="description" content="DEX, a designer community." />
@@ -26,7 +27,7 @@ function App({ Component, pageProps }: AppProps) {
       }>
         <Component {...pageProps} />
       </div>
-    </div>
+    </PlausibleProvider>
   )
 }
 
