@@ -1,4 +1,4 @@
-import { createCss, StitchesCss }  from '@stitches/react'
+import { createCss, StitchesCss } from '@stitches/react'
 
 const stitchesConfig = createCss({
   theme: {
