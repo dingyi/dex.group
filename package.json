@@ -20,7 +20,7 @@
   "dependencies": {
     "@stitches/react": "1.2.8",
     "next": "12.2.3",
-    "next-plausible": "3.1.9",
+    "next-plausible": "3.2.0",
     "react": "18.1.0",
     "react-dom": "18.1.0"
   },
