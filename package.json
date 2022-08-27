@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@stitches/react": "1.2.8",
+<<<<<<< Updated upstream
     "next": "12.2.3",
     "next-plausible": "3.2.0",
     "react": "18.1.0",
@@ -30,5 +31,18 @@
     "eslint-config-next": "12.2.3",
     "prettier": "2.6.1",
     "typescript": "4.7.4"
+=======
+    "next": "12.2.5",
+    "next-plausible": "3.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.17",
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.2.5",
+    "prettier": "2.7.1",
+    "typescript": "4.8.2"
+>>>>>>> Stashed changes
   }
 }
