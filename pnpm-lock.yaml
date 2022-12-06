@@ -8,7 +8,7 @@ specifiers:
   eslint: 8.29.0
   eslint-config-next: 13.0.6
   next: 13.0.6
-  next-plausible: 3.6.4
+  next-plausible: 3.6.5
   next-pwa: 5.6.0
   next-seo: 5.15.0
   next-themes: 0.2.1
@@ -21,7 +21,7 @@ specifiers:
 
 dependencies:
   next: 13.0.6_biqbaboplfbrettd7655fr4n2y
-  next-plausible: 3.6.4_6jx7hpii6hgsrmhxgqrmo3277u
+  next-plausible: 3.6.5_6jx7hpii6hgsrmhxgqrmo3277u
   next-pwa: 5.6.0_next@13.0.6
   next-seo: 5.15.0_6jx7hpii6hgsrmhxgqrmo3277u
   next-themes: 0.2.1_6jx7hpii6hgsrmhxgqrmo3277u
@@ -3253,8 +3253,8 @@ packages:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: true
 
-  /next-plausible/3.6.4_6jx7hpii6hgsrmhxgqrmo3277u:
-    resolution: {integrity: sha512-aHL4IL+gkkjs5ScB18LZ3LMEWXKR5VTvnMDs/fHNFHadOh23i37fD+VP5oAQLALR8Mde63l9JJljrw9DkvjWjQ==}
+  /next-plausible/3.6.5_6jx7hpii6hgsrmhxgqrmo3277u:
+    resolution: {integrity: sha512-eGsyie68xIyX+If1PSIJsgv7pkiMUm66Yt9gELl3kUvljaxoJOCwUEALGk5JHvhByGsBiRswkrGioDMthL3gfQ==}
     peerDependencies:
       next: ^11.1.0 || ^12.0.0 || ^13.0.0
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
