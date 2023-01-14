@@ -13,7 +13,7 @@ specifiers:
   next-seo: 5.15.0
   next-themes: 0.2.1
   postcss: 8.4.21
-  prettier: 2.8.2
+  prettier: 2.8.3
   react: 18.2.0
   react-dom: 18.2.0
   tailwindcss: 3.2.4
@@ -36,7 +36,7 @@ devDependencies:
   eslint: 8.31.0
   eslint-config-next: 13.1.1_iukboom6ndih5an6iafl45j2fe
   postcss: 8.4.21
-  prettier: 2.8.2
+  prettier: 2.8.3
   tailwindcss: 3.2.4_postcss@8.4.21
   typescript: 4.9.4
 
@@ -3773,8 +3773,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier/2.8.2:
-    resolution: {integrity: sha512-BtRV9BcncDyI2tsuS19zzhzoxD8Dh8LiCx7j7tHzrkz8GFXAexeWFdi22mjE1d16dftH2qNaytVxqiRTGlMfpw==}
+  /prettier/2.8.3:
+    resolution: {integrity: sha512-tJ/oJ4amDihPoufT5sM0Z1SKEuKay8LfVAMlbbhnnkvt6BUserZylqo2PN+p9KeljLr0OHa2rXHU1T8reeoTrw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
