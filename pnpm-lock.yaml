@@ -9,8 +9,8 @@ dependencies:
     specifier: 13.5.6
     version: 13.5.6(@babel/core@7.22.9)(react-dom@18.2.0)(react@18.2.0)
   next-plausible:
-    specifier: 3.11.2
-    version: 3.11.2(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)
+    specifier: 3.12.2
+    version: 3.12.2(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)
   next-pwa:
     specifier: 5.6.0
     version: 5.6.0(@babel/core@7.22.9)(next@13.5.6)(webpack@5.88.2)
@@ -2137,7 +2137,6 @@ packages:
       electron-to-chromium: 1.4.559
       node-releases: 2.0.13
       update-browserslist-db: 1.0.13(browserslist@4.22.1)
-    dev: true
 
   /buffer-from@1.1.2:
     resolution: {integrity: sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==}
@@ -2184,7 +2183,6 @@ packages:
 
   /caniuse-lite@1.0.30001550:
     resolution: {integrity: sha512-p82WjBYIypO0ukTsd/FG3Xxs+4tFeaY9pfT4amQL8KWtYH7H9nYwReGAbMTJ0hsmRO8IfDtsS6p3ZWj8+1c2RQ==}
-    dev: true
 
   /chalk@2.4.2:
     resolution: {integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==}
@@ -2453,7 +2451,6 @@ packages:
 
   /electron-to-chromium@1.4.559:
     resolution: {integrity: sha512-iS7KhLYCSJbdo3rUSkhDTVuFNCV34RKs2UaB9Ecr7VlqzjjWW//0nfsFF5dtDmyXlZQaDYYtID5fjtC/6lpRug==}
-    dev: true
 
   /emoji-regex@9.2.2:
     resolution: {integrity: sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==}
@@ -3794,10 +3791,10 @@ packages:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
     dev: false
 
-  /next-plausible@3.11.2(next@13.5.6)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-T/5RPVYFRk4HODvcnpMPk6pe4HYHQHSwJFGUbAdyKIJWgs4jl3oq3S16D6xKSKP3AEjIwQe4YsotQrDN2ILbjA==}
+  /next-plausible@3.12.2(next@13.5.6)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-jyOYLAdwaZZR6nrzFhN9xfVjzYOG6mIQ/LLDCfdAS99ELy759cKfNxluGo+pI2Xh9cYxTFYYZGlnkyR3IPy4yg==}
     peerDependencies:
-      next: ^11.1.0 || ^12.0.0 || ^13.0.0
+      next: ^11.1.0 || ^12.0.0 || ^13.0.0 || ^14.0.0
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
@@ -5004,7 +5001,6 @@ packages:
       browserslist: 4.22.1
       escalade: 3.1.1
       picocolors: 1.0.0
-    dev: true
 
   /uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
@@ -5056,7 +5052,7 @@ packages:
       '@webassemblyjs/wasm-parser': 1.11.6
       acorn: 8.10.0
       acorn-import-assertions: 1.9.0(acorn@8.10.0)
-      browserslist: 4.21.9
+      browserslist: 4.22.1
       chrome-trace-event: 1.0.3
       enhanced-resolve: 5.15.0
       es-module-lexer: 1.3.0
